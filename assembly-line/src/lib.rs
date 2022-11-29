@@ -15,6 +15,5 @@ pub fn working_items_per_minute(speed: u8) -> u32 {
     
 
   let prod_rate_per_hr = production_rate_per_hour(speed).trunc() as u32;
-    
    prod_rate_per_hr / 60_u32
 }
