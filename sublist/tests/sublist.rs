@@ -60,7 +60,7 @@ fn partially_matching_sublist_at_start() {
 }
 
 #[test]
-#[ignore]
+
 fn sublist_early_in_huge_list() {
     let huge: Vec<u32> = (1..1_000_000).collect();
 
@@ -68,7 +68,7 @@ fn sublist_early_in_huge_list() {
 }
 
 #[test]
-#[ignore]
+
 fn huge_sublist_not_in_huge_list() {
     let v1: Vec<u64> = (10..1_000_001).collect();
     let v2: Vec<u64> = (1..1_000_000).collect();
@@ -101,7 +101,7 @@ fn second_list_missing_element_from_first_list() {
 }
 
 #[test]
-#[ignore]
+
 fn superlist_early_in_huge_list() {
     let huge: Vec<u32> = (1..1_000_000).collect();
 
