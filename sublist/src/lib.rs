@@ -11,7 +11,7 @@ pub enum Comparison {
 pub fn sublist<T: PartialEq + Display>(_first_list: &[T], _second_list: &[T]) -> Comparison {
    let first_list_string: String = _first_list.iter().map(|x| x.to_string()).collect::<String>();
    let second_list_string: String = _second_list.iter().map(|x| x.to_string()).collect::<String>();
-
+    
    if is_equal(_first_list, _second_list){
    return  Comparison::Equal
    }
