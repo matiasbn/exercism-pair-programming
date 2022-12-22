@@ -7,9 +7,12 @@
     {
       "type": "lldb",
       "request": "launch",
-      "name": "Debug",
-      "program": "${workspaceFolder}/src/lib.rs",
+      "name": "Cargo test",
+      "cargo": {
+        "args": ["test", "--no-run", "--lib"]
+      },
       "args": [],
+      "program": "${workspaceFolder}/src/lib.rs",
       "cwd": "${workspaceFolder}"
     }
   ]
