@@ -1,0 +1,8 @@
+[workspace]
+members = ["rna-transcription"]
+exclude = ["**/package.json", "z-Bat-bkp.toml", "README.md"]
+[profile.release]
+overflow-checks = true
+lto = true
+opt-level = 0
+codegen-units = 1
