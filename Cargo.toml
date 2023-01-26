@@ -1,5 +1,5 @@
 [workspace]
-members = ["rna-transcription"]
+members = ["diffie-hellman"]
 exclude = ["**/package.json", "z-Bat-bkp.toml", "README.md"]
 [profile.release]
 overflow-checks = true
